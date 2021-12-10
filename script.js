@@ -24,7 +24,7 @@ function handleClick(event) {
         city.innerText = '';
         district.innerText = '';
         street.innerText = '';
-    } else if (cep.length < 8) {
+    } else if (cep.length != 8 ) {
         invalidSearch.innerText = 'CEP Invalido!';
         divInfo.innerText = '';
         city.innerText = '';
