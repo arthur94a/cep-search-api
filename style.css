@@ -70,3 +70,56 @@ html {
 .invalid-search {
     color: #f00;
 }
+
+.footer-container {
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-icon-content {
+    background: transparent;
+    display: flex;
+}
+
+.footer-icon {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.footer-icon a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-icon img {
+    width: 30px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    .form-container form, div, input, label {
+        margin-bottom: 10px;
+    }
+
+    .form-container {
+        width: 160px;
+    }
+
+    .form-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer-icon-content {
+        flex-direction: column;
+    }
+}
